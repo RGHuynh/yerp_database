@@ -1,4 +1,6 @@
 class TweetsController < ApplicationController
+  require 'pry'
+
   before_action :set_tweet, only: [:show, :update, :destroy]
 
   # GET /tweets
